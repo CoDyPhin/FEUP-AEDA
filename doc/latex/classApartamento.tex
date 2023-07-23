@@ -1,0 +1,207 @@
+\hypertarget{classApartamento}{}\doxysection{Apartamento Class Reference}
+\label{classApartamento}\index{Apartamento@{Apartamento}}
+
+
+Classe onde se tratam especificamente os apartamentos existentes no condominio a gerir.  
+
+
+
+
+{\ttfamily \#include $<$habitacoes.\+h$>$}
+
+Inheritance diagram for Apartamento\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classApartamento}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classApartamento_a46583909fd9eb1dc4c0548576b460eb5}{Apartamento}} (unsigned long int \mbox{\hyperlink{classHabitacao_a6f9941ae0f2119e4145f9a61a0136df4}{owner\+Nif}}, string \mbox{\hyperlink{classHabitacao_a17ab00f34e9ba8f2a0ca21b4d8c6931e}{morada}}, double \mbox{\hyperlink{classHabitacao_a91824bac67b074a75220eb5062f06ff6}{area\+Int}}, vector$<$ \mbox{\hyperlink{classServico}{Servico}} $>$\mbox{\hyperlink{classHabitacao_a88bcb9b993a25353315bef90020ee025}{serv\+Cons}}, string \mbox{\hyperlink{classApartamento_a5e2d843f139485c6e023d2a688b0d652}{tipo}}, unsigned int \mbox{\hyperlink{classApartamento_a8511f52d963715db076f645fe940358a}{piso}})
+\begin{DoxyCompactList}\small\item\em Construtor de um objeto \mbox{\hyperlink{classApartamento}{Apartamento}}. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classApartamento_a9903c8f278d9f1d7e3cd276574e577ad}\label{classApartamento_a9903c8f278d9f1d7e3cd276574e577ad}} 
+\mbox{\hyperlink{classApartamento_a9903c8f278d9f1d7e3cd276574e577ad}{$\sim$\+Apartamento}} ()
+\begin{DoxyCompactList}\small\item\em Destrutor default. \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{classApartamento_a5d08153332867890be09439de9b69f19}{get\+Morada}} ()
+\begin{DoxyCompactList}\small\item\em Metodo get para a morada do \mbox{\hyperlink{classApartamento}{Apartamento}}. \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{classApartamento_a494a009763bcf62c5e635d6a76c9d919}{get\+Tipo}} ()
+\begin{DoxyCompactList}\small\item\em Metodo get para o tipo de \mbox{\hyperlink{classApartamento}{Apartamento}}. \end{DoxyCompactList}\item 
+unsigned int \mbox{\hyperlink{classApartamento_a859f94faaa8341cef0b1235a9e8e3cd7}{get\+Piso}} ()
+\begin{DoxyCompactList}\small\item\em Metodo get para o piso. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classApartamento_a737b464f7cc98f7da107e72556e4d31d}{set\+Tipo}} (string \mbox{\hyperlink{classApartamento_a5e2d843f139485c6e023d2a688b0d652}{tipo}})
+\begin{DoxyCompactList}\small\item\em Metodo set para o tipo. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classApartamento_a56cc14ceeaa6f35d23ad32dd6b9d15a2}{set\+Piso}} (unsigned int \mbox{\hyperlink{classApartamento_a8511f52d963715db076f645fe940358a}{piso}})
+\begin{DoxyCompactList}\small\item\em Metodo set para o piso. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+string \mbox{\hyperlink{classApartamento_a5e2d843f139485c6e023d2a688b0d652}{tipo}}
+\item 
+unsigned int \mbox{\hyperlink{classApartamento_a8511f52d963715db076f645fe940358a}{piso}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+ostream \& \mbox{\hyperlink{classApartamento_a33fadf049abf8f0c7ea83fd8d8443855}{operator$<$$<$}} (ostream \&os, \mbox{\hyperlink{classApartamento}{Apartamento}} a)
+\begin{DoxyCompactList}\small\item\em Overload do operador de output. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+Classe onde se tratam especificamente os apartamentos existentes no condominio a gerir. 
+
+Classe-\/derivada da classe-\/mae \mbox{\hyperlink{classHabitacao}{Habitacao}}, Apartamentos 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classApartamento_a46583909fd9eb1dc4c0548576b460eb5}\label{classApartamento_a46583909fd9eb1dc4c0548576b460eb5}} 
+\index{Apartamento@{Apartamento}!Apartamento@{Apartamento}}
+\index{Apartamento@{Apartamento}!Apartamento@{Apartamento}}
+\doxysubsubsection{\texorpdfstring{Apartamento()}{Apartamento()}}
+{\footnotesize\ttfamily Apartamento\+::\+Apartamento (\begin{DoxyParamCaption}\item[{unsigned long int}]{owner\+Nif,  }\item[{string}]{morada,  }\item[{double}]{area\+Int,  }\item[{vector$<$ \mbox{\hyperlink{classServico}{Servico}} $>$}]{serv\+Cons,  }\item[{string}]{tipo,  }\item[{unsigned int}]{piso }\end{DoxyParamCaption})}
+
+
+
+Construtor de um objeto \mbox{\hyperlink{classApartamento}{Apartamento}}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em morada} & Morada do \mbox{\hyperlink{classApartamento}{Apartamento}} \\
+\hline
+{\em owner\+Nif} & N\+IF do \mbox{\hyperlink{classCondomino}{Condomino}} dono (0 se sem dono) \\
+\hline
+{\em area\+Int} & Area interior do \mbox{\hyperlink{classApartamento}{Apartamento}} \\
+\hline
+{\em serv\+Cons} & Vetor de servicos que ja foram consumidos pelo \mbox{\hyperlink{classApartamento}{Apartamento}} \\
+\hline
+{\em tipo} & Tipo de apartamento \\
+\hline
+{\em piso} & true se tiver piscina, false se nao \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classApartamento_a5d08153332867890be09439de9b69f19}\label{classApartamento_a5d08153332867890be09439de9b69f19}} 
+\index{Apartamento@{Apartamento}!getMorada@{getMorada}}
+\index{getMorada@{getMorada}!Apartamento@{Apartamento}}
+\doxysubsubsection{\texorpdfstring{getMorada()}{getMorada()}}
+{\footnotesize\ttfamily string Apartamento\+::get\+Morada (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Metodo get para a morada do \mbox{\hyperlink{classApartamento}{Apartamento}}. 
+
+\begin{DoxyReturn}{Returns}
+string Morada do \mbox{\hyperlink{classApartamento}{Apartamento}} 
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{classHabitacao_aed25dc76309b950051a08f4697cbabed}{Habitacao}}.
+
+\mbox{\Hypertarget{classApartamento_a859f94faaa8341cef0b1235a9e8e3cd7}\label{classApartamento_a859f94faaa8341cef0b1235a9e8e3cd7}} 
+\index{Apartamento@{Apartamento}!getPiso@{getPiso}}
+\index{getPiso@{getPiso}!Apartamento@{Apartamento}}
+\doxysubsubsection{\texorpdfstring{getPiso()}{getPiso()}}
+{\footnotesize\ttfamily unsigned int Apartamento\+::get\+Piso (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Metodo get para o piso. 
+
+\begin{DoxyReturn}{Returns}
+unsigned int Piso do \mbox{\hyperlink{classApartamento}{Apartamento}} 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classApartamento_a494a009763bcf62c5e635d6a76c9d919}\label{classApartamento_a494a009763bcf62c5e635d6a76c9d919}} 
+\index{Apartamento@{Apartamento}!getTipo@{getTipo}}
+\index{getTipo@{getTipo}!Apartamento@{Apartamento}}
+\doxysubsubsection{\texorpdfstring{getTipo()}{getTipo()}}
+{\footnotesize\ttfamily string Apartamento\+::get\+Tipo (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Metodo get para o tipo de \mbox{\hyperlink{classApartamento}{Apartamento}}. 
+
+\begin{DoxyReturn}{Returns}
+string Tipo de \mbox{\hyperlink{classApartamento}{Apartamento}} 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classApartamento_a56cc14ceeaa6f35d23ad32dd6b9d15a2}\label{classApartamento_a56cc14ceeaa6f35d23ad32dd6b9d15a2}} 
+\index{Apartamento@{Apartamento}!setPiso@{setPiso}}
+\index{setPiso@{setPiso}!Apartamento@{Apartamento}}
+\doxysubsubsection{\texorpdfstring{setPiso()}{setPiso()}}
+{\footnotesize\ttfamily bool Apartamento\+::set\+Piso (\begin{DoxyParamCaption}\item[{unsigned int}]{piso }\end{DoxyParamCaption})}
+
+
+
+Metodo set para o piso. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em piso} & Novo piso do \mbox{\hyperlink{classApartamento}{Apartamento}} \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool true se bem sucedido, false se nao 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classApartamento_a737b464f7cc98f7da107e72556e4d31d}\label{classApartamento_a737b464f7cc98f7da107e72556e4d31d}} 
+\index{Apartamento@{Apartamento}!setTipo@{setTipo}}
+\index{setTipo@{setTipo}!Apartamento@{Apartamento}}
+\doxysubsubsection{\texorpdfstring{setTipo()}{setTipo()}}
+{\footnotesize\ttfamily bool Apartamento\+::set\+Tipo (\begin{DoxyParamCaption}\item[{string}]{tipo }\end{DoxyParamCaption})}
+
+
+
+Metodo set para o tipo. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em tipo} & Novo tipo de \mbox{\hyperlink{classApartamento}{Apartamento}} \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool true se bem sucedido, false se nao 
+\end{DoxyReturn}
+
+
+\doxysubsection{Friends And Related Function Documentation}
+\mbox{\Hypertarget{classApartamento_a33fadf049abf8f0c7ea83fd8d8443855}\label{classApartamento_a33fadf049abf8f0c7ea83fd8d8443855}} 
+\index{Apartamento@{Apartamento}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!Apartamento@{Apartamento}}
+\doxysubsubsection{\texorpdfstring{operator$<$$<$}{operator<<}}
+{\footnotesize\ttfamily ostream\& operator$<$$<$ (\begin{DoxyParamCaption}\item[{ostream \&}]{os,  }\item[{\mbox{\hyperlink{classApartamento}{Apartamento}}}]{a }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+Overload do operador de output. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em os} & ostream\& \\
+\hline
+{\em a} & \mbox{\hyperlink{classApartamento}{Apartamento}} a fazer output \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+ostream\& Output formatado do \mbox{\hyperlink{classApartamento}{Apartamento}} 
+\end{DoxyReturn}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classApartamento_a8511f52d963715db076f645fe940358a}\label{classApartamento_a8511f52d963715db076f645fe940358a}} 
+\index{Apartamento@{Apartamento}!piso@{piso}}
+\index{piso@{piso}!Apartamento@{Apartamento}}
+\doxysubsubsection{\texorpdfstring{piso}{piso}}
+{\footnotesize\ttfamily unsigned int Apartamento\+::piso\hspace{0.3cm}{\ttfamily [private]}}
+
+Piso do \mbox{\hyperlink{classApartamento}{Apartamento}} \mbox{\Hypertarget{classApartamento_a5e2d843f139485c6e023d2a688b0d652}\label{classApartamento_a5e2d843f139485c6e023d2a688b0d652}} 
+\index{Apartamento@{Apartamento}!tipo@{tipo}}
+\index{tipo@{tipo}!Apartamento@{Apartamento}}
+\doxysubsubsection{\texorpdfstring{tipo}{tipo}}
+{\footnotesize\ttfamily string Apartamento\+::tipo\hspace{0.3cm}{\ttfamily [private]}}
+
+Tipo de \mbox{\hyperlink{classApartamento}{Apartamento}} 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/codyphin/\+C\+Lion\+Projects/\+Proj1/\+Project/habitacoes.\+h\item 
+/home/codyphin/\+C\+Lion\+Projects/\+Proj1/\+Project/habitacoes.\+cpp\end{DoxyCompactItemize}

@@ -1,0 +1,170 @@
+\hypertarget{classServico}{}\doxysection{Servico Class Reference}
+\label{classServico}\index{Servico@{Servico}}
+
+
+Classe onde se tratam os servicos que podem ser disponibilizados para o condominio a gerir.  
+
+
+
+
+{\ttfamily \#include $<$servicos.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classServico_a8833067180a977d708c8ae95ff2c6d0d}{Servico}} (string \mbox{\hyperlink{classServico_a22b7f68fd1840cd60e502ab94519fd1e}{tipo}}, vector$<$ \mbox{\hyperlink{classFuncionario}{Funcionario}} $>$ \mbox{\hyperlink{classServico_af954ae4645d682f96a680520441261b5}{funcs}})
+\begin{DoxyCompactList}\small\item\em Construtor de um objeto \mbox{\hyperlink{classServico}{Servico}}. \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{classServico_ade014ea898af97f414de59f07b976027}{get\+Tipo}} () const
+\begin{DoxyCompactList}\small\item\em Metodo get para o tipo de servico. \end{DoxyCompactList}\item 
+vector$<$ \mbox{\hyperlink{classFuncionario}{Funcionario}} $>$ \mbox{\hyperlink{classServico_a8b771e42637bcd847094b0a07b7046f8}{get\+Funcs}} ()
+\begin{DoxyCompactList}\small\item\em Metodo get para os funcionarios que realizam o servico. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classServico_ab0d963ce46753fc847b9e765962464da}{set\+Tipo}} (string \mbox{\hyperlink{classServico_a22b7f68fd1840cd60e502ab94519fd1e}{tipo}})
+\begin{DoxyCompactList}\small\item\em Metodo set para o tipo de servico. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classServico_acfd07ac47eebfc3dbfc9ad12101f4e10}{set\+Funcs}} (vector$<$ \mbox{\hyperlink{classFuncionario}{Funcionario}} $>$ \mbox{\hyperlink{classServico_af954ae4645d682f96a680520441261b5}{funcs}})
+\begin{DoxyCompactList}\small\item\em Metodo set para os funcionarios que realizam o servico. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+string \mbox{\hyperlink{classServico_a22b7f68fd1840cd60e502ab94519fd1e}{tipo}}
+\item 
+vector$<$ \mbox{\hyperlink{classFuncionario}{Funcionario}} $>$ \mbox{\hyperlink{classServico_af954ae4645d682f96a680520441261b5}{funcs}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{classServico_a3d8ca7c44b0036ac1d6c8c5f7a8b9b91}{operator==}} (\mbox{\hyperlink{classServico}{Servico}} s1, \mbox{\hyperlink{classServico}{Servico}} s2)
+\begin{DoxyCompactList}\small\item\em Overload do operator ==. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Classe onde se tratam os servicos que podem ser disponibilizados para o condominio a gerir. 
+
+Classe de servicos 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classServico_a8833067180a977d708c8ae95ff2c6d0d}\label{classServico_a8833067180a977d708c8ae95ff2c6d0d}} 
+\index{Servico@{Servico}!Servico@{Servico}}
+\index{Servico@{Servico}!Servico@{Servico}}
+\doxysubsubsection{\texorpdfstring{Servico()}{Servico()}}
+{\footnotesize\ttfamily Servico\+::\+Servico (\begin{DoxyParamCaption}\item[{string}]{tipo,  }\item[{vector$<$ \mbox{\hyperlink{classFuncionario}{Funcionario}} $>$}]{funcs }\end{DoxyParamCaption})}
+
+
+
+Construtor de um objeto \mbox{\hyperlink{classServico}{Servico}}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em tipo} & Tipo de servico \\
+\hline
+{\em funcs} & Vetor de funcionarios disponiveis \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classServico_a8b771e42637bcd847094b0a07b7046f8}\label{classServico_a8b771e42637bcd847094b0a07b7046f8}} 
+\index{Servico@{Servico}!getFuncs@{getFuncs}}
+\index{getFuncs@{getFuncs}!Servico@{Servico}}
+\doxysubsubsection{\texorpdfstring{getFuncs()}{getFuncs()}}
+{\footnotesize\ttfamily vector$<$\mbox{\hyperlink{classFuncionario}{Funcionario}}$>$ Servico\+::get\+Funcs (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Metodo get para os funcionarios que realizam o servico. 
+
+\begin{DoxyReturn}{Returns}
+vector$<$\+Funcionario$>$ Funcionarios que realizam o servico 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classServico_ade014ea898af97f414de59f07b976027}\label{classServico_ade014ea898af97f414de59f07b976027}} 
+\index{Servico@{Servico}!getTipo@{getTipo}}
+\index{getTipo@{getTipo}!Servico@{Servico}}
+\doxysubsubsection{\texorpdfstring{getTipo()}{getTipo()}}
+{\footnotesize\ttfamily string Servico\+::get\+Tipo (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Metodo get para o tipo de servico. 
+
+\begin{DoxyReturn}{Returns}
+string Tipo de servico 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classServico_acfd07ac47eebfc3dbfc9ad12101f4e10}\label{classServico_acfd07ac47eebfc3dbfc9ad12101f4e10}} 
+\index{Servico@{Servico}!setFuncs@{setFuncs}}
+\index{setFuncs@{setFuncs}!Servico@{Servico}}
+\doxysubsubsection{\texorpdfstring{setFuncs()}{setFuncs()}}
+{\footnotesize\ttfamily bool Servico\+::set\+Funcs (\begin{DoxyParamCaption}\item[{vector$<$ \mbox{\hyperlink{classFuncionario}{Funcionario}} $>$}]{funcs }\end{DoxyParamCaption})}
+
+
+
+Metodo set para os funcionarios que realizam o servico. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em funcs} & Novo vetor de funcionarios que realizam o servico \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool true se bem sucedido, false se nao 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classServico_ab0d963ce46753fc847b9e765962464da}\label{classServico_ab0d963ce46753fc847b9e765962464da}} 
+\index{Servico@{Servico}!setTipo@{setTipo}}
+\index{setTipo@{setTipo}!Servico@{Servico}}
+\doxysubsubsection{\texorpdfstring{setTipo()}{setTipo()}}
+{\footnotesize\ttfamily bool Servico\+::set\+Tipo (\begin{DoxyParamCaption}\item[{string}]{tipo }\end{DoxyParamCaption})}
+
+
+
+Metodo set para o tipo de servico. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em tipo} & Novo tipo de servico \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool true se bem sucedido, false se nao 
+\end{DoxyReturn}
+
+
+\doxysubsection{Friends And Related Function Documentation}
+\mbox{\Hypertarget{classServico_a3d8ca7c44b0036ac1d6c8c5f7a8b9b91}\label{classServico_a3d8ca7c44b0036ac1d6c8c5f7a8b9b91}} 
+\index{Servico@{Servico}!operator==@{operator==}}
+\index{operator==@{operator==}!Servico@{Servico}}
+\doxysubsubsection{\texorpdfstring{operator==}{operator==}}
+{\footnotesize\ttfamily bool operator== (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classServico}{Servico}}}]{s1,  }\item[{\mbox{\hyperlink{classServico}{Servico}}}]{s2 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+Overload do operator ==. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em s1} & \mbox{\hyperlink{classServico}{Servico}} 1 \\
+\hline
+{\em s2} & \mbox{\hyperlink{classServico}{Servico}} 2 \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool true se todos os membros forem iguais, false se nao 
+\end{DoxyReturn}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classServico_af954ae4645d682f96a680520441261b5}\label{classServico_af954ae4645d682f96a680520441261b5}} 
+\index{Servico@{Servico}!funcs@{funcs}}
+\index{funcs@{funcs}!Servico@{Servico}}
+\doxysubsubsection{\texorpdfstring{funcs}{funcs}}
+{\footnotesize\ttfamily vector$<$\mbox{\hyperlink{classFuncionario}{Funcionario}}$>$ Servico\+::funcs\hspace{0.3cm}{\ttfamily [private]}}
+
+Vetor de funcionarios que realizam o servico \mbox{\Hypertarget{classServico_a22b7f68fd1840cd60e502ab94519fd1e}\label{classServico_a22b7f68fd1840cd60e502ab94519fd1e}} 
+\index{Servico@{Servico}!tipo@{tipo}}
+\index{tipo@{tipo}!Servico@{Servico}}
+\doxysubsubsection{\texorpdfstring{tipo}{tipo}}
+{\footnotesize\ttfamily string Servico\+::tipo\hspace{0.3cm}{\ttfamily [private]}}
+
+Tipo de servico 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/codyphin/\+C\+Lion\+Projects/\+Proj1/\+Project/servicos.\+h\item 
+/home/codyphin/\+C\+Lion\+Projects/\+Proj1/\+Project/servicos.\+cpp\end{DoxyCompactItemize}

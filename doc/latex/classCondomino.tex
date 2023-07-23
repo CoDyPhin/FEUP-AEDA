@@ -1,0 +1,396 @@
+\hypertarget{classCondomino}{}\doxysection{Condomino Class Reference}
+\label{classCondomino}\index{Condomino@{Condomino}}
+
+
+Classe onde se tratam os condominos existentes no condominio a gerir.  
+
+
+
+
+{\ttfamily \#include $<$condominio.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classCondomino_a444b74c55455273850efd32940c1766c}{Condomino}} (string \mbox{\hyperlink{classCondomino_a476f3fba8efd2b81a5e5561957c96602}{nome}}, unsigned long int \mbox{\hyperlink{classCondomino_aab3562c2aadf68d3f73348f6696dfdb7}{nif}}, double mensalA, double mensalV, double valor\+A\+Ext, double valor\+Pool, double valor\+Tipo, double valor\+Piso, unsigned int \mbox{\hyperlink{classCondomino_a4d6b28b6b390ea8b725ad9e8da840779}{start\+Date}}, vector$<$ \mbox{\hyperlink{classHabitacao}{Habitacao}} $\ast$ $>$ \mbox{\hyperlink{classCondomino_a33a2ef993b87559f43848e1e0f0801c7}{owned\+Habs}})
+\begin{DoxyCompactList}\small\item\em Construtor de um condomino. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classCondomino_aed405b2adc3e9a584f017039b3fdf8c0}\label{classCondomino_aed405b2adc3e9a584f017039b3fdf8c0}} 
+\mbox{\hyperlink{classCondomino_aed405b2adc3e9a584f017039b3fdf8c0}{$\sim$\+Condomino}} ()
+\begin{DoxyCompactList}\small\item\em Destrutor default. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classCondomino_a19f3ccf285b338d63e742ad3ee4dfad2}\label{classCondomino_a19f3ccf285b338d63e742ad3ee4dfad2}} 
+{\bfseries Condomino} (string \mbox{\hyperlink{classCondomino_a476f3fba8efd2b81a5e5561957c96602}{nome}}, unsigned long int \mbox{\hyperlink{classCondomino_aab3562c2aadf68d3f73348f6696dfdb7}{nif}}, unsigned int \mbox{\hyperlink{classCondomino_a4d6b28b6b390ea8b725ad9e8da840779}{start\+Date}}, unsigned int \mbox{\hyperlink{classCondomino_a5722b4fefd64fa31f4b3dd9d473daf66}{end\+Date}})
+\item 
+string \mbox{\hyperlink{classCondomino_a868c078643fe2c424426ecb3c57f3c11}{get\+Nome}} () const
+\begin{DoxyCompactList}\small\item\em Metodo get para o nome. \end{DoxyCompactList}\item 
+unsigned long int \mbox{\hyperlink{classCondomino_a642288648a95d40755ff0b5b736922e1}{get\+Nif}} () const
+\begin{DoxyCompactList}\small\item\em Metodo get para o N\+IF. \end{DoxyCompactList}\item 
+vector$<$ \mbox{\hyperlink{classHabitacao}{Habitacao}} $\ast$ $>$ \mbox{\hyperlink{classCondomino_aacefe8fe56c56b4afdeb1f8b9525ac80}{get\+Owned\+Habs}} ()
+\begin{DoxyCompactList}\small\item\em Metodo get para as habitacoes possuidas. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{classCondomino_a846f6a7e7c95a50c2884787558e96724}{get\+Mensal\+Base}} ()
+\begin{DoxyCompactList}\small\item\em Metodo get para o valor da mensalidade. \end{DoxyCompactList}\item 
+unsigned int \mbox{\hyperlink{classCondomino_a3deb5f345e76d36fcbcd82893bd81777}{get\+Start\+Date}} () const
+\begin{DoxyCompactList}\small\item\em Metodo get para a data de entrada no condominio. \end{DoxyCompactList}\item 
+unsigned int \mbox{\hyperlink{classCondomino_afd44105d96096eb092ba1129489a1c76}{get\+End\+Date}} () const
+\begin{DoxyCompactList}\small\item\em Metodo get para a data de saida do condominio. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classCondomino_a96ceaa5d16428a3237d7de7fd2420b55}{set\+Nome}} (string \mbox{\hyperlink{classCondomino_a476f3fba8efd2b81a5e5561957c96602}{nome}})
+\begin{DoxyCompactList}\small\item\em Metodo set para o nome. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classCondomino_a06a88705f2560aade801e63417dbb7c6}{set\+Nif}} (unsigned long int \mbox{\hyperlink{classCondomino_aab3562c2aadf68d3f73348f6696dfdb7}{nif}})
+\begin{DoxyCompactList}\small\item\em Metodo set para o nif. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classCondomino_a1be4aea93bdcf22dd4d73a0052882d6e}{set\+Owned\+Habs}} (vector$<$ \mbox{\hyperlink{classHabitacao}{Habitacao}} $\ast$ $>$ \mbox{\hyperlink{classCondomino_a33a2ef993b87559f43848e1e0f0801c7}{owned\+Habs}})
+\begin{DoxyCompactList}\small\item\em Metodo set para as habitacoes possuidas. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classCondomino_afa6a582c9491d8006687d6c7d0bb19cf}{set\+Mensal\+Base}} (double \mbox{\hyperlink{classCondomino_a1e2db4cdd0b1e9c62a3c4f879bb7e3bb}{mensal\+Base}})
+\begin{DoxyCompactList}\small\item\em Metodo set para o valor da mensalidade. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classCondomino_ad59938490acfddefd7228992562aada7}{set\+Start\+Date}} (unsigned int startdate)
+\begin{DoxyCompactList}\small\item\em Metodo set para a data de entrada no condominio. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classCondomino_ab631705413482694388af9e801e67cb8}{set\+End\+Date}} (unsigned int \mbox{\hyperlink{classCondomino_a5722b4fefd64fa31f4b3dd9d473daf66}{end\+Date}})
+\begin{DoxyCompactList}\small\item\em Metodo set para a data de saida no condominio. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classCondomino_a476f3fba8efd2b81a5e5561957c96602}\label{classCondomino_a476f3fba8efd2b81a5e5561957c96602}} 
+string \mbox{\hyperlink{classCondomino_a476f3fba8efd2b81a5e5561957c96602}{nome}}
+\begin{DoxyCompactList}\small\item\em Nome do \mbox{\hyperlink{classCondomino}{Condomino}}. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classCondomino_aab3562c2aadf68d3f73348f6696dfdb7}\label{classCondomino_aab3562c2aadf68d3f73348f6696dfdb7}} 
+unsigned long int \mbox{\hyperlink{classCondomino_aab3562c2aadf68d3f73348f6696dfdb7}{nif}}
+\begin{DoxyCompactList}\small\item\em N\+IF do \mbox{\hyperlink{classCondomino}{Condomino}}. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classCondomino_a33a2ef993b87559f43848e1e0f0801c7}\label{classCondomino_a33a2ef993b87559f43848e1e0f0801c7}} 
+vector$<$ \mbox{\hyperlink{classHabitacao}{Habitacao}} $\ast$ $>$ \mbox{\hyperlink{classCondomino_a33a2ef993b87559f43848e1e0f0801c7}{owned\+Habs}}
+\begin{DoxyCompactList}\small\item\em Vetor de pointers para as habitacoes possuidas pelo condomino. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classCondomino_a1e2db4cdd0b1e9c62a3c4f879bb7e3bb}\label{classCondomino_a1e2db4cdd0b1e9c62a3c4f879bb7e3bb}} 
+double \mbox{\hyperlink{classCondomino_a1e2db4cdd0b1e9c62a3c4f879bb7e3bb}{mensal\+Base}}
+\begin{DoxyCompactList}\small\item\em Mensalidade a pagar pelo condomino. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classCondomino_a4d6b28b6b390ea8b725ad9e8da840779}\label{classCondomino_a4d6b28b6b390ea8b725ad9e8da840779}} 
+unsigned int \mbox{\hyperlink{classCondomino_a4d6b28b6b390ea8b725ad9e8da840779}{start\+Date}}
+\begin{DoxyCompactList}\small\item\em Data de entrada do condomino para o condominio. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classCondomino_a5722b4fefd64fa31f4b3dd9d473daf66}\label{classCondomino_a5722b4fefd64fa31f4b3dd9d473daf66}} 
+unsigned int \mbox{\hyperlink{classCondomino_a5722b4fefd64fa31f4b3dd9d473daf66}{end\+Date}}
+\begin{DoxyCompactList}\small\item\em Data de saida do condomino do condominio. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{classCondomino_a834747d94904c89a5a28d83a162e044c}{operator$<$}} (\mbox{\hyperlink{classCondomino}{Condomino}} c1, \mbox{\hyperlink{classCondomino}{Condomino}} c2)
+\begin{DoxyCompactList}\small\item\em Operador $<$ para 2 condominos (ordenacao por N\+IF) \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classCondomino_a8ca0ce332c0de7f027ba310035600200}{operator==}} (\mbox{\hyperlink{classCondomino}{Condomino}} c1, \mbox{\hyperlink{classCondomino}{Condomino}} c2)
+\begin{DoxyCompactList}\small\item\em Operador == para 2 condominos. \end{DoxyCompactList}\item 
+ostream \& \mbox{\hyperlink{classCondomino_abca63411cd7e29aabfcdce146333e092}{operator$<$$<$}} (ostream \&os, \mbox{\hyperlink{classCondomino}{Condomino}} c)
+\begin{DoxyCompactList}\small\item\em Operador de output para um condomino. \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{classCondomino_a40c82707906c731bfffa42ac526053de}{show\+Hist\+Cond}} (\mbox{\hyperlink{classCondomino}{Condomino}} c)
+\begin{DoxyCompactList}\small\item\em Funcao para formatar output para um condomino no historico. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Classe onde se tratam os condominos existentes no condominio a gerir. 
+
+Classe de condominos 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classCondomino_a444b74c55455273850efd32940c1766c}\label{classCondomino_a444b74c55455273850efd32940c1766c}} 
+\index{Condomino@{Condomino}!Condomino@{Condomino}}
+\index{Condomino@{Condomino}!Condomino@{Condomino}}
+\doxysubsubsection{\texorpdfstring{Condomino()}{Condomino()}}
+{\footnotesize\ttfamily Condomino\+::\+Condomino (\begin{DoxyParamCaption}\item[{string}]{nome,  }\item[{unsigned long int}]{nif,  }\item[{double}]{mensalA,  }\item[{double}]{mensalV,  }\item[{double}]{valor\+A\+Ext,  }\item[{double}]{valor\+Pool,  }\item[{double}]{valor\+Tipo,  }\item[{double}]{valor\+Piso,  }\item[{unsigned int}]{start\+Date,  }\item[{vector$<$ \mbox{\hyperlink{classHabitacao}{Habitacao}} $\ast$ $>$}]{owned\+Habs = {\ttfamily \{\}} }\end{DoxyParamCaption})}
+
+
+
+Construtor de um condomino. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em nome} & Nome do condomino \\
+\hline
+{\em nif} & N\+IF do condomino \\
+\hline
+{\em mensalA} & Valor mensal-\/base para um apartamento no condominio em que se insere \\
+\hline
+{\em mensalV} & Valor mensal-\/base para uma vivenda no condominio em que se insere \\
+\hline
+{\em valor\+A\+Ext} & Valorizacao por m$^\wedge$2 de area exterior (dependente do condominio) \\
+\hline
+{\em valor\+Pool} & Valorizacao por existencia de piscina (dependente do condominio) \\
+\hline
+{\em valor\+Tipo} & Valorizacao por tipo de apartamento (dependente do condominio) \\
+\hline
+{\em valor\+Piso} & Valorizacao por piso (dependente do condominio) \\
+\hline
+{\em owned\+Habs} & Vetor de habitacoes pertencentes ao condomino \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\mbox{\hyperlink{classCondomino}{Condomino}} Objeto \mbox{\hyperlink{classCondomino}{Condomino}} criado 
+\end{DoxyReturn}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classCondomino_afd44105d96096eb092ba1129489a1c76}\label{classCondomino_afd44105d96096eb092ba1129489a1c76}} 
+\index{Condomino@{Condomino}!getEndDate@{getEndDate}}
+\index{getEndDate@{getEndDate}!Condomino@{Condomino}}
+\doxysubsubsection{\texorpdfstring{getEndDate()}{getEndDate()}}
+{\footnotesize\ttfamily unsigned int Condomino\+::get\+End\+Date (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Metodo get para a data de saida do condominio. 
+
+\begin{DoxyReturn}{Returns}
+unsigned int Data de saida 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classCondomino_a846f6a7e7c95a50c2884787558e96724}\label{classCondomino_a846f6a7e7c95a50c2884787558e96724}} 
+\index{Condomino@{Condomino}!getMensalBase@{getMensalBase}}
+\index{getMensalBase@{getMensalBase}!Condomino@{Condomino}}
+\doxysubsubsection{\texorpdfstring{getMensalBase()}{getMensalBase()}}
+{\footnotesize\ttfamily double Condomino\+::get\+Mensal\+Base (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Metodo get para o valor da mensalidade. 
+
+\begin{DoxyReturn}{Returns}
+double Mensalidade a pagar 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classCondomino_a642288648a95d40755ff0b5b736922e1}\label{classCondomino_a642288648a95d40755ff0b5b736922e1}} 
+\index{Condomino@{Condomino}!getNif@{getNif}}
+\index{getNif@{getNif}!Condomino@{Condomino}}
+\doxysubsubsection{\texorpdfstring{getNif()}{getNif()}}
+{\footnotesize\ttfamily unsigned long int Condomino\+::get\+Nif (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Metodo get para o N\+IF. 
+
+\begin{DoxyReturn}{Returns}
+unsigned long int N\+IF do condomino 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classCondomino_a868c078643fe2c424426ecb3c57f3c11}\label{classCondomino_a868c078643fe2c424426ecb3c57f3c11}} 
+\index{Condomino@{Condomino}!getNome@{getNome}}
+\index{getNome@{getNome}!Condomino@{Condomino}}
+\doxysubsubsection{\texorpdfstring{getNome()}{getNome()}}
+{\footnotesize\ttfamily string Condomino\+::get\+Nome (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Metodo get para o nome. 
+
+\begin{DoxyReturn}{Returns}
+string Membro privado nome 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classCondomino_aacefe8fe56c56b4afdeb1f8b9525ac80}\label{classCondomino_aacefe8fe56c56b4afdeb1f8b9525ac80}} 
+\index{Condomino@{Condomino}!getOwnedHabs@{getOwnedHabs}}
+\index{getOwnedHabs@{getOwnedHabs}!Condomino@{Condomino}}
+\doxysubsubsection{\texorpdfstring{getOwnedHabs()}{getOwnedHabs()}}
+{\footnotesize\ttfamily vector$<$\mbox{\hyperlink{classHabitacao}{Habitacao}}$\ast$$>$ Condomino\+::get\+Owned\+Habs (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Metodo get para as habitacoes possuidas. 
+
+\begin{DoxyReturn}{Returns}
+vector$<$\+Habitacao$\ast$$>$ Habitacoes possuidas 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classCondomino_a3deb5f345e76d36fcbcd82893bd81777}\label{classCondomino_a3deb5f345e76d36fcbcd82893bd81777}} 
+\index{Condomino@{Condomino}!getStartDate@{getStartDate}}
+\index{getStartDate@{getStartDate}!Condomino@{Condomino}}
+\doxysubsubsection{\texorpdfstring{getStartDate()}{getStartDate()}}
+{\footnotesize\ttfamily unsigned int Condomino\+::get\+Start\+Date (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Metodo get para a data de entrada no condominio. 
+
+\begin{DoxyReturn}{Returns}
+unsigned int Data de entrada 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classCondomino_ab631705413482694388af9e801e67cb8}\label{classCondomino_ab631705413482694388af9e801e67cb8}} 
+\index{Condomino@{Condomino}!setEndDate@{setEndDate}}
+\index{setEndDate@{setEndDate}!Condomino@{Condomino}}
+\doxysubsubsection{\texorpdfstring{setEndDate()}{setEndDate()}}
+{\footnotesize\ttfamily bool Condomino\+::set\+End\+Date (\begin{DoxyParamCaption}\item[{unsigned int}]{end\+Date }\end{DoxyParamCaption})}
+
+
+
+Metodo set para a data de saida no condominio. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em startdate} & Novo valor da data de saida do condominio \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool true se bem sucedido, false se nao 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classCondomino_afa6a582c9491d8006687d6c7d0bb19cf}\label{classCondomino_afa6a582c9491d8006687d6c7d0bb19cf}} 
+\index{Condomino@{Condomino}!setMensalBase@{setMensalBase}}
+\index{setMensalBase@{setMensalBase}!Condomino@{Condomino}}
+\doxysubsubsection{\texorpdfstring{setMensalBase()}{setMensalBase()}}
+{\footnotesize\ttfamily bool Condomino\+::set\+Mensal\+Base (\begin{DoxyParamCaption}\item[{double}]{mensal\+Base }\end{DoxyParamCaption})}
+
+
+
+Metodo set para o valor da mensalidade. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em mensal\+Base} & Novo valor da mensalidade \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool true se bem sucedido, false se nao 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classCondomino_a06a88705f2560aade801e63417dbb7c6}\label{classCondomino_a06a88705f2560aade801e63417dbb7c6}} 
+\index{Condomino@{Condomino}!setNif@{setNif}}
+\index{setNif@{setNif}!Condomino@{Condomino}}
+\doxysubsubsection{\texorpdfstring{setNif()}{setNif()}}
+{\footnotesize\ttfamily bool Condomino\+::set\+Nif (\begin{DoxyParamCaption}\item[{unsigned long int}]{nif }\end{DoxyParamCaption})}
+
+
+
+Metodo set para o nif. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em nif} & Novo N\+IF do condomino \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool true se bem sucedido, false se nao 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classCondomino_a96ceaa5d16428a3237d7de7fd2420b55}\label{classCondomino_a96ceaa5d16428a3237d7de7fd2420b55}} 
+\index{Condomino@{Condomino}!setNome@{setNome}}
+\index{setNome@{setNome}!Condomino@{Condomino}}
+\doxysubsubsection{\texorpdfstring{setNome()}{setNome()}}
+{\footnotesize\ttfamily bool Condomino\+::set\+Nome (\begin{DoxyParamCaption}\item[{string}]{nome }\end{DoxyParamCaption})}
+
+
+
+Metodo set para o nome. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em nome} & Novo nome do condomino \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool true se bem sucedido, false se nao 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classCondomino_a1be4aea93bdcf22dd4d73a0052882d6e}\label{classCondomino_a1be4aea93bdcf22dd4d73a0052882d6e}} 
+\index{Condomino@{Condomino}!setOwnedHabs@{setOwnedHabs}}
+\index{setOwnedHabs@{setOwnedHabs}!Condomino@{Condomino}}
+\doxysubsubsection{\texorpdfstring{setOwnedHabs()}{setOwnedHabs()}}
+{\footnotesize\ttfamily bool Condomino\+::set\+Owned\+Habs (\begin{DoxyParamCaption}\item[{vector$<$ \mbox{\hyperlink{classHabitacao}{Habitacao}} $\ast$ $>$}]{owned\+Habs }\end{DoxyParamCaption})}
+
+
+
+Metodo set para as habitacoes possuidas. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em owned\+Habs} & Novo vetor de habitacoes possuidas \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool true se bem sucedido, false se nao 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classCondomino_ad59938490acfddefd7228992562aada7}\label{classCondomino_ad59938490acfddefd7228992562aada7}} 
+\index{Condomino@{Condomino}!setStartDate@{setStartDate}}
+\index{setStartDate@{setStartDate}!Condomino@{Condomino}}
+\doxysubsubsection{\texorpdfstring{setStartDate()}{setStartDate()}}
+{\footnotesize\ttfamily bool Condomino\+::set\+Start\+Date (\begin{DoxyParamCaption}\item[{unsigned int}]{startdate }\end{DoxyParamCaption})}
+
+
+
+Metodo set para a data de entrada no condominio. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em startdate} & Novo valor da data de entrada no condominio \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool true se bem sucedido, false se nao 
+\end{DoxyReturn}
+
+
+\doxysubsection{Friends And Related Function Documentation}
+\mbox{\Hypertarget{classCondomino_a834747d94904c89a5a28d83a162e044c}\label{classCondomino_a834747d94904c89a5a28d83a162e044c}} 
+\index{Condomino@{Condomino}!operator$<$@{operator$<$}}
+\index{operator$<$@{operator$<$}!Condomino@{Condomino}}
+\doxysubsubsection{\texorpdfstring{operator$<$}{operator<}}
+{\footnotesize\ttfamily bool operator$<$ (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classCondomino}{Condomino}}}]{c1,  }\item[{\mbox{\hyperlink{classCondomino}{Condomino}}}]{c2 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+Operador $<$ para 2 condominos (ordenacao por N\+IF) 
+
+
+\begin{DoxyParams}{Parameters}
+{\em c1} & \mbox{\hyperlink{classCondomino}{Condomino}} 1 \\
+\hline
+{\em c2} & \mbox{\hyperlink{classCondomino}{Condomino}} 2 \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool true se c1.\+nif $<$ c2.\+nif, false se c1.\+nif $>$ c2.\+nif 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classCondomino_abca63411cd7e29aabfcdce146333e092}\label{classCondomino_abca63411cd7e29aabfcdce146333e092}} 
+\index{Condomino@{Condomino}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!Condomino@{Condomino}}
+\doxysubsubsection{\texorpdfstring{operator$<$$<$}{operator<<}}
+{\footnotesize\ttfamily ostream\& operator$<$$<$ (\begin{DoxyParamCaption}\item[{ostream \&}]{os,  }\item[{\mbox{\hyperlink{classCondomino}{Condomino}}}]{c }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+Operador de output para um condomino. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em os} & ostream \\
+\hline
+{\em c} & \mbox{\hyperlink{classCondomino}{Condomino}} a fazer output \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+ostream\& output de condomino formatado 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classCondomino_a8ca0ce332c0de7f027ba310035600200}\label{classCondomino_a8ca0ce332c0de7f027ba310035600200}} 
+\index{Condomino@{Condomino}!operator==@{operator==}}
+\index{operator==@{operator==}!Condomino@{Condomino}}
+\doxysubsubsection{\texorpdfstring{operator==}{operator==}}
+{\footnotesize\ttfamily bool operator== (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classCondomino}{Condomino}}}]{c1,  }\item[{\mbox{\hyperlink{classCondomino}{Condomino}}}]{c2 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+Operador == para 2 condominos. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em c1} & \mbox{\hyperlink{classCondomino}{Condomino}} 1 \\
+\hline
+{\em c2} & \mbox{\hyperlink{classCondomino}{Condomino}} 2 \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool true se todos os membros de c1 forem iguais aos de c2, false se nao 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classCondomino_a40c82707906c731bfffa42ac526053de}\label{classCondomino_a40c82707906c731bfffa42ac526053de}} 
+\index{Condomino@{Condomino}!showHistCond@{showHistCond}}
+\index{showHistCond@{showHistCond}!Condomino@{Condomino}}
+\doxysubsubsection{\texorpdfstring{showHistCond}{showHistCond}}
+{\footnotesize\ttfamily string show\+Hist\+Cond (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classCondomino}{Condomino}}}]{c }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+Funcao para formatar output para um condomino no historico. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em c} & \mbox{\hyperlink{classCondomino}{Condomino}} a fazer output \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string Output de condomino do historico formatado 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/codyphin/\+C\+Lion\+Projects/\+Proj1/\+Project/condominio.\+h\item 
+/home/codyphin/\+C\+Lion\+Projects/\+Proj1/\+Project/condominio.\+cpp\end{DoxyCompactItemize}

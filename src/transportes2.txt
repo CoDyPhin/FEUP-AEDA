@@ -1,0 +1,15 @@
+Metro
+Largo da Ajuda
+Rua da apresentacao-1.2;Rua de Paredes-4.5
+====================
+Autocarro
+Lisboa
+Rua da Matosinhos-2.3;Rua de Cacia-7.6;Avenida dos Aliados-0.5
+====================
+Comboio
+Braga
+Rua Alveres Cabral-13.5;Rua das Lajes-15;Rua de Espanha-19.5
+====================
+Taxi
+Chaves
+Rua das Camelias-7.2;Rua Manuel Primeiro-3.5;Rua de Fanzeres-0.7

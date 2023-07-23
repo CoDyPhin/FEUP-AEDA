@@ -1,0 +1,285 @@
+\hypertarget{classFuncionario}{}\doxysection{Funcionario Class Reference}
+\label{classFuncionario}\index{Funcionario@{Funcionario}}
+
+
+Classe onde se tratam os funcionarios prestadores de um determinado servico e as suas caracteristicas.  
+
+
+
+
+{\ttfamily \#include $<$servicos.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classFuncionario_a654522ca991214ebc63edd78896fd7eb}{Funcionario}} (string \mbox{\hyperlink{classFuncionario_a9415993338314799ac6ec08f4441578e}{nome}}, string \mbox{\hyperlink{classFuncionario_a6228944ef300a24f4ddd4fd4767ae4ed}{tipo}}, map$<$ double, bool $>$ \mbox{\hyperlink{classFuncionario_a56f153f5d35ad57d86ea69191632a8fc}{horario}}, map$<$ double, bool $>$ \mbox{\hyperlink{classFuncionario_a50c6952e3f3bb02a0aefe647e66a6d39}{disp}}, unsigned int \mbox{\hyperlink{classFuncionario_adcc713eb1e9bcd193a3e0478760214de}{data}})
+\begin{DoxyCompactList}\small\item\em Construtor do objeto \mbox{\hyperlink{classFuncionario}{Funcionario}}. \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{classFuncionario_a13f42e2a8cb0515371b49745e5830c4c}{get\+Nome}} ()
+\begin{DoxyCompactList}\small\item\em Metodo get para o nome. \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{classFuncionario_a395438da19884026df0ea5c9a7df7e9f}{get\+Tipo}} ()
+\begin{DoxyCompactList}\small\item\em Metodo get para o tipo de servico que presta. \end{DoxyCompactList}\item 
+map$<$ double, bool $>$ \mbox{\hyperlink{classFuncionario_a6290e6859e17025da49c283af87da304}{get\+Horario}} ()
+\begin{DoxyCompactList}\small\item\em Metodo get para o horario de trabalho. \end{DoxyCompactList}\item 
+map$<$ double, bool $>$ \mbox{\hyperlink{classFuncionario_a4be8325b7b8e239d3866fb229523fa42}{get\+Disp}} ()
+\begin{DoxyCompactList}\small\item\em Metodo get para a disponibilidade na data de trabalho. \end{DoxyCompactList}\item 
+unsigned int \mbox{\hyperlink{classFuncionario_a196c61403695240986524adcdb939850}{get\+Data}} ()
+\begin{DoxyCompactList}\small\item\em Metodo get para a data de trabalho. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classFuncionario_a28474011b584c6e6b9e0cb5ec4b2a18e}{set\+Nome}} (string \mbox{\hyperlink{classFuncionario_a9415993338314799ac6ec08f4441578e}{nome}})
+\begin{DoxyCompactList}\small\item\em Metodo set para o nome do funcionario. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classFuncionario_a840efd35fba6ba63860482bfc0ef53a4}{set\+Horario}} (map$<$ double, bool $>$ \mbox{\hyperlink{classFuncionario_a56f153f5d35ad57d86ea69191632a8fc}{horario}})
+\begin{DoxyCompactList}\small\item\em Metodo set para o horario de trabalho. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classFuncionario_aa72cc326823125221e836dfbbc3e01eb}{set\+Disp}} (map$<$ double, bool $>$ \mbox{\hyperlink{classFuncionario_a50c6952e3f3bb02a0aefe647e66a6d39}{disp}})
+\begin{DoxyCompactList}\small\item\em Metodo set para a disponibilidade na data de trabalho. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classFuncionario_ad4dc11a7c0a868f72428849c4b929575}{set\+Data}} (unsigned int \mbox{\hyperlink{classFuncionario_adcc713eb1e9bcd193a3e0478760214de}{data}})
+\begin{DoxyCompactList}\small\item\em Metodo set para a data de trabalho. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+string \mbox{\hyperlink{classFuncionario_a9415993338314799ac6ec08f4441578e}{nome}}
+\item 
+string \mbox{\hyperlink{classFuncionario_a6228944ef300a24f4ddd4fd4767ae4ed}{tipo}}
+\item 
+unsigned int \mbox{\hyperlink{classFuncionario_adcc713eb1e9bcd193a3e0478760214de}{data}}
+\item 
+map$<$ double, bool $>$ \mbox{\hyperlink{classFuncionario_a56f153f5d35ad57d86ea69191632a8fc}{horario}}
+\item 
+map$<$ double, bool $>$ \mbox{\hyperlink{classFuncionario_a50c6952e3f3bb02a0aefe647e66a6d39}{disp}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{classFuncionario_a5f82b1f30a019cddc88413ec15b644fd}{operator==}} (\mbox{\hyperlink{classFuncionario}{Funcionario}} f1, \mbox{\hyperlink{classFuncionario}{Funcionario}} f2)
+\begin{DoxyCompactList}\small\item\em Overload do operador ==. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Classe onde se tratam os funcionarios prestadores de um determinado servico e as suas caracteristicas. 
+
+Classe de funcionarios 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classFuncionario_a654522ca991214ebc63edd78896fd7eb}\label{classFuncionario_a654522ca991214ebc63edd78896fd7eb}} 
+\index{Funcionario@{Funcionario}!Funcionario@{Funcionario}}
+\index{Funcionario@{Funcionario}!Funcionario@{Funcionario}}
+\doxysubsubsection{\texorpdfstring{Funcionario()}{Funcionario()}}
+{\footnotesize\ttfamily Funcionario\+::\+Funcionario (\begin{DoxyParamCaption}\item[{string}]{nome,  }\item[{string}]{tipo,  }\item[{map$<$ double, bool $>$}]{horario,  }\item[{map$<$ double, bool $>$}]{disp,  }\item[{unsigned int}]{data }\end{DoxyParamCaption})}
+
+
+
+Construtor do objeto \mbox{\hyperlink{classFuncionario}{Funcionario}}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em nome} & Nome do funcionario \\
+\hline
+{\em tipo} & Tipo de servico que presta \\
+\hline
+{\em horario} & Map representativo do horario de trabalho \\
+\hline
+{\em disp} & Map representativo da disponibilidade na data de trabalho \\
+\hline
+{\em data} & Data do dia de trabalho \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classFuncionario_a196c61403695240986524adcdb939850}\label{classFuncionario_a196c61403695240986524adcdb939850}} 
+\index{Funcionario@{Funcionario}!getData@{getData}}
+\index{getData@{getData}!Funcionario@{Funcionario}}
+\doxysubsubsection{\texorpdfstring{getData()}{getData()}}
+{\footnotesize\ttfamily unsigned int Funcionario\+::get\+Data (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Metodo get para a data de trabalho. 
+
+\begin{DoxyReturn}{Returns}
+unsigned int Data de trabalho 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classFuncionario_a4be8325b7b8e239d3866fb229523fa42}\label{classFuncionario_a4be8325b7b8e239d3866fb229523fa42}} 
+\index{Funcionario@{Funcionario}!getDisp@{getDisp}}
+\index{getDisp@{getDisp}!Funcionario@{Funcionario}}
+\doxysubsubsection{\texorpdfstring{getDisp()}{getDisp()}}
+{\footnotesize\ttfamily map$<$double,bool$>$ Funcionario\+::get\+Disp (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Metodo get para a disponibilidade na data de trabalho. 
+
+\begin{DoxyReturn}{Returns}
+map$<$double,bool$>$ Disponibilidade na data de trabalho 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classFuncionario_a6290e6859e17025da49c283af87da304}\label{classFuncionario_a6290e6859e17025da49c283af87da304}} 
+\index{Funcionario@{Funcionario}!getHorario@{getHorario}}
+\index{getHorario@{getHorario}!Funcionario@{Funcionario}}
+\doxysubsubsection{\texorpdfstring{getHorario()}{getHorario()}}
+{\footnotesize\ttfamily map$<$double,bool$>$ Funcionario\+::get\+Horario (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Metodo get para o horario de trabalho. 
+
+\begin{DoxyReturn}{Returns}
+map$<$double,bool$>$ Horario de trabalho 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classFuncionario_a13f42e2a8cb0515371b49745e5830c4c}\label{classFuncionario_a13f42e2a8cb0515371b49745e5830c4c}} 
+\index{Funcionario@{Funcionario}!getNome@{getNome}}
+\index{getNome@{getNome}!Funcionario@{Funcionario}}
+\doxysubsubsection{\texorpdfstring{getNome()}{getNome()}}
+{\footnotesize\ttfamily string Funcionario\+::get\+Nome (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Metodo get para o nome. 
+
+\begin{DoxyReturn}{Returns}
+string Nome do funcionario 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classFuncionario_a395438da19884026df0ea5c9a7df7e9f}\label{classFuncionario_a395438da19884026df0ea5c9a7df7e9f}} 
+\index{Funcionario@{Funcionario}!getTipo@{getTipo}}
+\index{getTipo@{getTipo}!Funcionario@{Funcionario}}
+\doxysubsubsection{\texorpdfstring{getTipo()}{getTipo()}}
+{\footnotesize\ttfamily string Funcionario\+::get\+Tipo (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Metodo get para o tipo de servico que presta. 
+
+\begin{DoxyReturn}{Returns}
+string Tipo de servico que presta 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classFuncionario_ad4dc11a7c0a868f72428849c4b929575}\label{classFuncionario_ad4dc11a7c0a868f72428849c4b929575}} 
+\index{Funcionario@{Funcionario}!setData@{setData}}
+\index{setData@{setData}!Funcionario@{Funcionario}}
+\doxysubsubsection{\texorpdfstring{setData()}{setData()}}
+{\footnotesize\ttfamily bool Funcionario\+::set\+Data (\begin{DoxyParamCaption}\item[{unsigned int}]{data }\end{DoxyParamCaption})}
+
+
+
+Metodo set para a data de trabalho. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em data} & Nova data de trabalho \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool true se bem sucedido, false se nao 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classFuncionario_aa72cc326823125221e836dfbbc3e01eb}\label{classFuncionario_aa72cc326823125221e836dfbbc3e01eb}} 
+\index{Funcionario@{Funcionario}!setDisp@{setDisp}}
+\index{setDisp@{setDisp}!Funcionario@{Funcionario}}
+\doxysubsubsection{\texorpdfstring{setDisp()}{setDisp()}}
+{\footnotesize\ttfamily bool Funcionario\+::set\+Disp (\begin{DoxyParamCaption}\item[{map$<$ double, bool $>$}]{disp }\end{DoxyParamCaption})}
+
+
+
+Metodo set para a disponibilidade na data de trabalho. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em disp} & Nova disponibilidade na data de trabalho \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool true se bem sucedido, false se nao 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classFuncionario_a840efd35fba6ba63860482bfc0ef53a4}\label{classFuncionario_a840efd35fba6ba63860482bfc0ef53a4}} 
+\index{Funcionario@{Funcionario}!setHorario@{setHorario}}
+\index{setHorario@{setHorario}!Funcionario@{Funcionario}}
+\doxysubsubsection{\texorpdfstring{setHorario()}{setHorario()}}
+{\footnotesize\ttfamily bool Funcionario\+::set\+Horario (\begin{DoxyParamCaption}\item[{map$<$ double, bool $>$}]{horario }\end{DoxyParamCaption})}
+
+
+
+Metodo set para o horario de trabalho. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em horario} & Novo horario do funcionario \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool true se bem sucedido, false se nao 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classFuncionario_a28474011b584c6e6b9e0cb5ec4b2a18e}\label{classFuncionario_a28474011b584c6e6b9e0cb5ec4b2a18e}} 
+\index{Funcionario@{Funcionario}!setNome@{setNome}}
+\index{setNome@{setNome}!Funcionario@{Funcionario}}
+\doxysubsubsection{\texorpdfstring{setNome()}{setNome()}}
+{\footnotesize\ttfamily bool Funcionario\+::set\+Nome (\begin{DoxyParamCaption}\item[{string}]{nome }\end{DoxyParamCaption})}
+
+
+
+Metodo set para o nome do funcionario. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em nome} & Novo nome do funcionario \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool true se bem sucedido, false se nao 
+\end{DoxyReturn}
+
+
+\doxysubsection{Friends And Related Function Documentation}
+\mbox{\Hypertarget{classFuncionario_a5f82b1f30a019cddc88413ec15b644fd}\label{classFuncionario_a5f82b1f30a019cddc88413ec15b644fd}} 
+\index{Funcionario@{Funcionario}!operator==@{operator==}}
+\index{operator==@{operator==}!Funcionario@{Funcionario}}
+\doxysubsubsection{\texorpdfstring{operator==}{operator==}}
+{\footnotesize\ttfamily bool operator== (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classFuncionario}{Funcionario}}}]{f1,  }\item[{\mbox{\hyperlink{classFuncionario}{Funcionario}}}]{f2 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+Overload do operador ==. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em f1} & \mbox{\hyperlink{classFuncionario}{Funcionario}} 1 \\
+\hline
+{\em f2} & \mbox{\hyperlink{classFuncionario}{Funcionario}} 2 \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool true se todos os parametros exceto a disponibilidade forem iguais, false se nao 
+\end{DoxyReturn}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classFuncionario_adcc713eb1e9bcd193a3e0478760214de}\label{classFuncionario_adcc713eb1e9bcd193a3e0478760214de}} 
+\index{Funcionario@{Funcionario}!data@{data}}
+\index{data@{data}!Funcionario@{Funcionario}}
+\doxysubsubsection{\texorpdfstring{data}{data}}
+{\footnotesize\ttfamily unsigned int Funcionario\+::data\hspace{0.3cm}{\ttfamily [private]}}
+
+Data de trabalho \mbox{\Hypertarget{classFuncionario_a50c6952e3f3bb02a0aefe647e66a6d39}\label{classFuncionario_a50c6952e3f3bb02a0aefe647e66a6d39}} 
+\index{Funcionario@{Funcionario}!disp@{disp}}
+\index{disp@{disp}!Funcionario@{Funcionario}}
+\doxysubsubsection{\texorpdfstring{disp}{disp}}
+{\footnotesize\ttfamily map$<$double,bool$>$ Funcionario\+::disp\hspace{0.3cm}{\ttfamily [private]}}
+
+Map de 30 em 30 minutos, cujas horas a true representam as horas em que ainda esta disponivel para trabalhar na data \mbox{\Hypertarget{classFuncionario_a56f153f5d35ad57d86ea69191632a8fc}\label{classFuncionario_a56f153f5d35ad57d86ea69191632a8fc}} 
+\index{Funcionario@{Funcionario}!horario@{horario}}
+\index{horario@{horario}!Funcionario@{Funcionario}}
+\doxysubsubsection{\texorpdfstring{horario}{horario}}
+{\footnotesize\ttfamily map$<$double,bool$>$ Funcionario\+::horario\hspace{0.3cm}{\ttfamily [private]}}
+
+Map de 30 em 30 minutos, cujas horas a true representam as horas em que o funcionario trabalha \mbox{\Hypertarget{classFuncionario_a9415993338314799ac6ec08f4441578e}\label{classFuncionario_a9415993338314799ac6ec08f4441578e}} 
+\index{Funcionario@{Funcionario}!nome@{nome}}
+\index{nome@{nome}!Funcionario@{Funcionario}}
+\doxysubsubsection{\texorpdfstring{nome}{nome}}
+{\footnotesize\ttfamily string Funcionario\+::nome\hspace{0.3cm}{\ttfamily [private]}}
+
+Nome do funcionario \mbox{\Hypertarget{classFuncionario_a6228944ef300a24f4ddd4fd4767ae4ed}\label{classFuncionario_a6228944ef300a24f4ddd4fd4767ae4ed}} 
+\index{Funcionario@{Funcionario}!tipo@{tipo}}
+\index{tipo@{tipo}!Funcionario@{Funcionario}}
+\doxysubsubsection{\texorpdfstring{tipo}{tipo}}
+{\footnotesize\ttfamily string Funcionario\+::tipo\hspace{0.3cm}{\ttfamily [private]}}
+
+Tipo de servico que o funcionario presta 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/codyphin/\+C\+Lion\+Projects/\+Proj1/\+Project/servicos.\+h\item 
+/home/codyphin/\+C\+Lion\+Projects/\+Proj1/\+Project/servicos.\+cpp\end{DoxyCompactItemize}

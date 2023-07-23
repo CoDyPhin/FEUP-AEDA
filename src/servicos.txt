@@ -1,0 +1,14 @@
+funcionarios.txt
+Limpeza
+====================
+Canalizacao
+====================
+Pintura
+====================
+Entregas
+====================
+Estacionamento
+====================
+Correio
+====================
+Restauracao

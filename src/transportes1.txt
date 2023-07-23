@@ -1,0 +1,15 @@
+Metro
+Praca D.Joao
+Rua de teste-0.2;Rua de Penafiel-3
+====================
+Autocarro
+Lisboa
+Rua da Maia-2.7;Rua de Aveiro-5.6;Avenida dos Aliados-0.1
+====================
+Comboio
+Aveiro
+Rua Alveres Cabral-12.5;Rua da Madeira-15;Rua da Vila-17.5
+====================
+Taxi
+Chaves
+Rua das Rosas-9.5;Rua Manuel Segundo-1.5;Rua de Fazeres-0.1

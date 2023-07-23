@@ -1,0 +1,35 @@
+Atlantico
+Penafiel
+70
+55
+0.2/4/0.4/0.30
+habitacoes1.txt
+condominos1.txt
+Limpeza, Canalizacao, Pintura, Entregas, Estacionamento, Correio
+historico1.txt
+historicoCondominos1.txt
+transportes1.txt
+====================
+Arrifana
+Portimao
+85
+70
+0.3/5/0.7/0.45
+habitacoes.txt
+condominos.txt
+Limpeza, Canalizacao, Pintura, Entregas, Estacionamento, Correio, Restauracao
+historico.txt
+historicoCondominos.txt
+transportes.txt
+====================
+Brasilia
+Coimbra
+65
+40
+0.1/2/0.3/0.15
+habitacoes2.txt
+condominos2.txt
+Limpeza, Canalizacao, Pintura, Entregas
+historico2.txt
+historicoCondominos2.txt
+transportes2.txt

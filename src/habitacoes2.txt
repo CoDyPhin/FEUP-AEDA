@@ -1,0 +1,47 @@
+Vivenda
+111113127
+Rua dos Barreiros, 154, S.Pedro Fins, Maia
+1500
+500
+false
+Limpeza, Canalizacao, Pintura
+====================
+Apartamento
+138479913
+Rua dos Tres Castelos, 4, Praia da Rocha, Matosinhos
+750
+T2
+5
+Limpeza, Entregas, Estacionamento
+====================
+Apartamento
+739673275
+Rua dos Tres Castelos, 3, Praia da Rocha, Maia
+750
+T2
+5
+Limpeza, Entregas, Estacionamento
+====================
+Vivenda
+956381888
+Rua dos Barreiros, 135, S.Pedro Fins, Maia
+1700
+700
+false
+Limpeza, Canalizacao, Pintura
+====================
+Vivenda
+198247511
+Rua Nova da Aldeia, 134, S.Pedro Fins, Maia
+1650
+600
+true
+Limpeza, Canalizacao, Pintura
+====================
+Apartamento
+379876499
+Rua dos Castelos, 3, Praia da Rocha, Maia
+550
+T1
+3
+Limpeza, Entregas

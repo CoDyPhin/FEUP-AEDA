@@ -1,0 +1,103 @@
+\hypertarget{classGestao}{}\doxysection{Gestao Class Reference}
+\label{classGestao}\index{Gestao@{Gestao}}
+
+
+Classe onde se encontram todos os condominios a gerir.  
+
+
+
+
+{\ttfamily \#include $<$condominio.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classGestao_a0b8ff8bf05fc1ed4794f2033d8d64a6a}{Gestao}} ()
+\begin{DoxyCompactList}\small\item\em Construtor default para gestao. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classGestao_acb898d5d0bffa5bd2c92b6911510a0f8}\label{classGestao_acb898d5d0bffa5bd2c92b6911510a0f8}} 
+\mbox{\hyperlink{classGestao_acb898d5d0bffa5bd2c92b6911510a0f8}{$\sim$\+Gestao}} ()=default
+\begin{DoxyCompactList}\small\item\em Destrutor default para gestao. \end{DoxyCompactList}\item 
+B\+ST$<$ \mbox{\hyperlink{classCondominio}{Condominio}} $>$ \mbox{\hyperlink{classGestao_a26ae2b3f042b2ea0e6b77da1c9e40efe}{get\+Condominios}} () const
+\begin{DoxyCompactList}\small\item\em Metodo get para a B\+ST de condominios. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classGestao_a3f8ae368cea1ebb7c077ee1fa6c3259d}{set\+Condominos}} (B\+ST$<$ \mbox{\hyperlink{classCondominio}{Condominio}} $>$ condominos)
+\begin{DoxyCompactList}\small\item\em Metodo set para a B\+ST de condominios. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classGestao_ada1e6cef2278a3fe6bfc1486b829385f}{add\+Condominio}} (\mbox{\hyperlink{classCondominio}{Condominio}} c)
+\begin{DoxyCompactList}\small\item\em Funcao para adicionar um condominio na B\+ST. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classGestao_ad278dfbfb19d267bc37f95489e73dd5c}\label{classGestao_ad278dfbfb19d267bc37f95489e73dd5c}} 
+B\+ST$<$ \mbox{\hyperlink{classCondominio}{Condominio}} $>$ \mbox{\hyperlink{classGestao_ad278dfbfb19d267bc37f95489e73dd5c}{condominios}}
+\begin{DoxyCompactList}\small\item\em Arvore binaria de pesquisa (B\+ST) de condominios. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Classe onde se encontram todos os condominios a gerir. 
+
+Classe de gestao de condominios 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classGestao_a0b8ff8bf05fc1ed4794f2033d8d64a6a}\label{classGestao_a0b8ff8bf05fc1ed4794f2033d8d64a6a}} 
+\index{Gestao@{Gestao}!Gestao@{Gestao}}
+\index{Gestao@{Gestao}!Gestao@{Gestao}}
+\doxysubsubsection{\texorpdfstring{Gestao()}{Gestao()}}
+{\footnotesize\ttfamily Gestao\+::\+Gestao (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Construtor default para gestao. 
+
+\begin{DoxyReturn}{Returns}
+Objeto \mbox{\hyperlink{classGestao}{Gestao}} vazio 
+\end{DoxyReturn}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classGestao_ada1e6cef2278a3fe6bfc1486b829385f}\label{classGestao_ada1e6cef2278a3fe6bfc1486b829385f}} 
+\index{Gestao@{Gestao}!addCondominio@{addCondominio}}
+\index{addCondominio@{addCondominio}!Gestao@{Gestao}}
+\doxysubsubsection{\texorpdfstring{addCondominio()}{addCondominio()}}
+{\footnotesize\ttfamily bool Gestao\+::add\+Condominio (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classCondominio}{Condominio}}}]{c }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Funcao para adicionar um condominio na B\+ST. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em c} & \mbox{\hyperlink{classCondomino}{Condomino}} a ser adicionado na B\+ST \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classGestao_a26ae2b3f042b2ea0e6b77da1c9e40efe}\label{classGestao_a26ae2b3f042b2ea0e6b77da1c9e40efe}} 
+\index{Gestao@{Gestao}!getCondominios@{getCondominios}}
+\index{getCondominios@{getCondominios}!Gestao@{Gestao}}
+\doxysubsubsection{\texorpdfstring{getCondominios()}{getCondominios()}}
+{\footnotesize\ttfamily B\+ST$<$\mbox{\hyperlink{classCondominio}{Condominio}}$>$ Gestao\+::get\+Condominios (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Metodo get para a B\+ST de condominios. 
+
+\begin{DoxyReturn}{Returns}
+B\+S\+T$<$\+Condominio$>$ 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classGestao_a3f8ae368cea1ebb7c077ee1fa6c3259d}\label{classGestao_a3f8ae368cea1ebb7c077ee1fa6c3259d}} 
+\index{Gestao@{Gestao}!setCondominos@{setCondominos}}
+\index{setCondominos@{setCondominos}!Gestao@{Gestao}}
+\doxysubsubsection{\texorpdfstring{setCondominos()}{setCondominos()}}
+{\footnotesize\ttfamily void Gestao\+::set\+Condominos (\begin{DoxyParamCaption}\item[{B\+ST$<$ \mbox{\hyperlink{classCondominio}{Condominio}} $>$}]{condominos }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Metodo set para a B\+ST de condominios. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em condominos} & Nova B\+ST de condominios \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/home/codyphin/\+C\+Lion\+Projects/\+Proj1/\+Project/condominio.\+h\end{DoxyCompactItemize}

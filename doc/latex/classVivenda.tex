@@ -1,0 +1,207 @@
+\hypertarget{classVivenda}{}\doxysection{Vivenda Class Reference}
+\label{classVivenda}\index{Vivenda@{Vivenda}}
+
+
+Classe onde se tratam especificamente as vivendas existentes no condominio a gerir.  
+
+
+
+
+{\ttfamily \#include $<$habitacoes.\+h$>$}
+
+Inheritance diagram for Vivenda\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classVivenda}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classVivenda_ac3dd6f972bbc22954b196d4941c53bd1}{Vivenda}} (unsigned long int \mbox{\hyperlink{classHabitacao_a6f9941ae0f2119e4145f9a61a0136df4}{owner\+Nif}}, string \mbox{\hyperlink{classHabitacao_a17ab00f34e9ba8f2a0ca21b4d8c6931e}{morada}}, double \mbox{\hyperlink{classHabitacao_a91824bac67b074a75220eb5062f06ff6}{area\+Int}}, double \mbox{\hyperlink{classVivenda_a2779ea9259d23981fb362d3afdf3a69f}{area\+Ext}}, vector$<$ \mbox{\hyperlink{classServico}{Servico}} $>$\mbox{\hyperlink{classHabitacao_a88bcb9b993a25353315bef90020ee025}{serv\+Cons}}, bool \mbox{\hyperlink{classVivenda_ac8d922fc0dfd3dd69c9df284b5a1037e}{pool}})
+\begin{DoxyCompactList}\small\item\em Construtor de um objeto \mbox{\hyperlink{classVivenda}{Vivenda}}. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classVivenda_a82f33a80ea17bf3c6f109d350dbe56a3}\label{classVivenda_a82f33a80ea17bf3c6f109d350dbe56a3}} 
+\mbox{\hyperlink{classVivenda_a82f33a80ea17bf3c6f109d350dbe56a3}{$\sim$\+Vivenda}} ()
+\begin{DoxyCompactList}\small\item\em Destrutor default. \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{classVivenda_a5cfde9161946de85021b2e0ea3c9f4f7}{get\+Morada}} ()
+\begin{DoxyCompactList}\small\item\em Metodo get para a morada. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{classVivenda_a86332bae2fa019207e9ab937468cbe2d}{get\+Area\+Ext}} ()
+\begin{DoxyCompactList}\small\item\em Metodo get para a area exterior. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classVivenda_a11826a005d779b8c12f1d23c4f18efa4}{get\+Pool}} ()
+\begin{DoxyCompactList}\small\item\em Metodo get para a existencia de piscina. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classVivenda_acd9b2ca12e54cf166cf63536b32a36c7}{set\+Area\+Ext}} (double \mbox{\hyperlink{classVivenda_a2779ea9259d23981fb362d3afdf3a69f}{area\+Ext}})
+\begin{DoxyCompactList}\small\item\em Metodo set para a area exterior. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classVivenda_ade495a957b86b7e8c2cfbe5e26e55afc}{set\+Pool}} (bool \mbox{\hyperlink{classVivenda_ac8d922fc0dfd3dd69c9df284b5a1037e}{pool}})
+\begin{DoxyCompactList}\small\item\em Metodo set para a existencia de piscina. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+double \mbox{\hyperlink{classVivenda_a2779ea9259d23981fb362d3afdf3a69f}{area\+Ext}}
+\item 
+bool \mbox{\hyperlink{classVivenda_ac8d922fc0dfd3dd69c9df284b5a1037e}{pool}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+ostream \& \mbox{\hyperlink{classVivenda_a3ed9aaee1900f5510051f2ec8e3be3ce}{operator$<$$<$}} (ostream \&os, \mbox{\hyperlink{classVivenda}{Vivenda}} v)
+\begin{DoxyCompactList}\small\item\em Overload do operador de output. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+Classe onde se tratam especificamente as vivendas existentes no condominio a gerir. 
+
+Classe-\/derivada da classe-\/mae \mbox{\hyperlink{classHabitacao}{Habitacao}}, Vivendas 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classVivenda_ac3dd6f972bbc22954b196d4941c53bd1}\label{classVivenda_ac3dd6f972bbc22954b196d4941c53bd1}} 
+\index{Vivenda@{Vivenda}!Vivenda@{Vivenda}}
+\index{Vivenda@{Vivenda}!Vivenda@{Vivenda}}
+\doxysubsubsection{\texorpdfstring{Vivenda()}{Vivenda()}}
+{\footnotesize\ttfamily Vivenda\+::\+Vivenda (\begin{DoxyParamCaption}\item[{unsigned long int}]{owner\+Nif,  }\item[{string}]{morada,  }\item[{double}]{area\+Int,  }\item[{double}]{area\+Ext,  }\item[{vector$<$ \mbox{\hyperlink{classServico}{Servico}} $>$}]{serv\+Cons,  }\item[{bool}]{pool }\end{DoxyParamCaption})}
+
+
+
+Construtor de um objeto \mbox{\hyperlink{classVivenda}{Vivenda}}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em morada} & Morada da \mbox{\hyperlink{classVivenda}{Vivenda}} \\
+\hline
+{\em owner\+Nif} & N\+IF do \mbox{\hyperlink{classCondomino}{Condomino}} dono (0 se sem dono) \\
+\hline
+{\em area\+Int} & Area interior da \mbox{\hyperlink{classVivenda}{Vivenda}} \\
+\hline
+{\em area\+Ext} & Area exterior da \mbox{\hyperlink{classVivenda}{Vivenda}} \\
+\hline
+{\em serv\+Cons} & Vetor de servicos que ja foram consumidos pela \mbox{\hyperlink{classVivenda}{Vivenda}} \\
+\hline
+{\em pool} & true se tiver piscina, false se nao \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classVivenda_a86332bae2fa019207e9ab937468cbe2d}\label{classVivenda_a86332bae2fa019207e9ab937468cbe2d}} 
+\index{Vivenda@{Vivenda}!getAreaExt@{getAreaExt}}
+\index{getAreaExt@{getAreaExt}!Vivenda@{Vivenda}}
+\doxysubsubsection{\texorpdfstring{getAreaExt()}{getAreaExt()}}
+{\footnotesize\ttfamily double Vivenda\+::get\+Area\+Ext (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Metodo get para a area exterior. 
+
+\begin{DoxyReturn}{Returns}
+double Area exterior 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classVivenda_a5cfde9161946de85021b2e0ea3c9f4f7}\label{classVivenda_a5cfde9161946de85021b2e0ea3c9f4f7}} 
+\index{Vivenda@{Vivenda}!getMorada@{getMorada}}
+\index{getMorada@{getMorada}!Vivenda@{Vivenda}}
+\doxysubsubsection{\texorpdfstring{getMorada()}{getMorada()}}
+{\footnotesize\ttfamily string Vivenda\+::get\+Morada (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Metodo get para a morada. 
+
+\begin{DoxyReturn}{Returns}
+string Morada da vivenda 
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{classHabitacao_aed25dc76309b950051a08f4697cbabed}{Habitacao}}.
+
+\mbox{\Hypertarget{classVivenda_a11826a005d779b8c12f1d23c4f18efa4}\label{classVivenda_a11826a005d779b8c12f1d23c4f18efa4}} 
+\index{Vivenda@{Vivenda}!getPool@{getPool}}
+\index{getPool@{getPool}!Vivenda@{Vivenda}}
+\doxysubsubsection{\texorpdfstring{getPool()}{getPool()}}
+{\footnotesize\ttfamily bool Vivenda\+::get\+Pool (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Metodo get para a existencia de piscina. 
+
+\begin{DoxyReturn}{Returns}
+bool true se tiver piscina, false se nao 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classVivenda_acd9b2ca12e54cf166cf63536b32a36c7}\label{classVivenda_acd9b2ca12e54cf166cf63536b32a36c7}} 
+\index{Vivenda@{Vivenda}!setAreaExt@{setAreaExt}}
+\index{setAreaExt@{setAreaExt}!Vivenda@{Vivenda}}
+\doxysubsubsection{\texorpdfstring{setAreaExt()}{setAreaExt()}}
+{\footnotesize\ttfamily bool Vivenda\+::set\+Area\+Ext (\begin{DoxyParamCaption}\item[{double}]{area\+Ext }\end{DoxyParamCaption})}
+
+
+
+Metodo set para a area exterior. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em area\+Ext} & Nova area exterior \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool true se bem sucedido, false se nao 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classVivenda_ade495a957b86b7e8c2cfbe5e26e55afc}\label{classVivenda_ade495a957b86b7e8c2cfbe5e26e55afc}} 
+\index{Vivenda@{Vivenda}!setPool@{setPool}}
+\index{setPool@{setPool}!Vivenda@{Vivenda}}
+\doxysubsubsection{\texorpdfstring{setPool()}{setPool()}}
+{\footnotesize\ttfamily bool Vivenda\+::set\+Pool (\begin{DoxyParamCaption}\item[{bool}]{pool }\end{DoxyParamCaption})}
+
+
+
+Metodo set para a existencia de piscina. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em pool} & Novo bool para existencia ou nao de piscina \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool true se bem sucedido, false se nao 
+\end{DoxyReturn}
+
+
+\doxysubsection{Friends And Related Function Documentation}
+\mbox{\Hypertarget{classVivenda_a3ed9aaee1900f5510051f2ec8e3be3ce}\label{classVivenda_a3ed9aaee1900f5510051f2ec8e3be3ce}} 
+\index{Vivenda@{Vivenda}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!Vivenda@{Vivenda}}
+\doxysubsubsection{\texorpdfstring{operator$<$$<$}{operator<<}}
+{\footnotesize\ttfamily ostream\& operator$<$$<$ (\begin{DoxyParamCaption}\item[{ostream \&}]{os,  }\item[{\mbox{\hyperlink{classVivenda}{Vivenda}}}]{v }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+Overload do operador de output. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em os} & ostream \\
+\hline
+{\em v} & \mbox{\hyperlink{classVivenda}{Vivenda}} a fazer output \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+ostream\& Output formatado para uma vivenda 
+\end{DoxyReturn}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classVivenda_a2779ea9259d23981fb362d3afdf3a69f}\label{classVivenda_a2779ea9259d23981fb362d3afdf3a69f}} 
+\index{Vivenda@{Vivenda}!areaExt@{areaExt}}
+\index{areaExt@{areaExt}!Vivenda@{Vivenda}}
+\doxysubsubsection{\texorpdfstring{areaExt}{areaExt}}
+{\footnotesize\ttfamily double Vivenda\+::area\+Ext\hspace{0.3cm}{\ttfamily [private]}}
+
+Area exterior da vivenda (m$^\wedge$2) \mbox{\Hypertarget{classVivenda_ac8d922fc0dfd3dd69c9df284b5a1037e}\label{classVivenda_ac8d922fc0dfd3dd69c9df284b5a1037e}} 
+\index{Vivenda@{Vivenda}!pool@{pool}}
+\index{pool@{pool}!Vivenda@{Vivenda}}
+\doxysubsubsection{\texorpdfstring{pool}{pool}}
+{\footnotesize\ttfamily bool Vivenda\+::pool\hspace{0.3cm}{\ttfamily [private]}}
+
+Existencia de piscina (true se possui, false se nao) 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/codyphin/\+C\+Lion\+Projects/\+Proj1/\+Project/habitacoes.\+h\item 
+/home/codyphin/\+C\+Lion\+Projects/\+Proj1/\+Project/habitacoes.\+cpp\end{DoxyCompactItemize}

@@ -1,0 +1,15 @@
+Metro
+Campo 24 de Agosto
+Rua de teste-0.5;Rua Nova da Aldeia-3
+====================
+Autocarro
+Algarve
+Rua da Maia-2.5;Rua de Aveiro-5;Rua do Marco-0.25
+====================
+Comboio
+Porto S.Bento
+Rua de Penafiel-10;Rua dos Acores-15;Rua de Conde-12.5
+====================
+Taxi
+Aveiro
+Rua das Flores-7;Rua Pacos Manuel-1;Rua de Fazeres-0.1

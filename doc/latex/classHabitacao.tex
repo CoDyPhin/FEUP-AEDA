@@ -1,0 +1,288 @@
+\hypertarget{classHabitacao}{}\doxysection{Habitacao Class Reference}
+\label{classHabitacao}\index{Habitacao@{Habitacao}}
+
+
+Classe onde se tratam as habitacoes de forma geral existentes no condominio a gerir.  
+
+
+
+
+{\ttfamily \#include $<$habitacoes.\+h$>$}
+
+Inheritance diagram for Habitacao\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classHabitacao}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classHabitacao_ae4f23f51d14e182b00f30f980fa46108}{Habitacao}} (unsigned long int \mbox{\hyperlink{classHabitacao_a6f9941ae0f2119e4145f9a61a0136df4}{owner\+Nif}}, string \mbox{\hyperlink{classHabitacao_a17ab00f34e9ba8f2a0ca21b4d8c6931e}{morada}}, double \mbox{\hyperlink{classHabitacao_a91824bac67b074a75220eb5062f06ff6}{area\+Int}}, vector$<$ \mbox{\hyperlink{classServico}{Servico}} $>$\mbox{\hyperlink{classHabitacao_a88bcb9b993a25353315bef90020ee025}{serv\+Cons}})
+\begin{DoxyCompactList}\small\item\em Construtor de um objeto habitacao. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classHabitacao_ae34b27933eac914d0936a33b1b53eddf}\label{classHabitacao_ae34b27933eac914d0936a33b1b53eddf}} 
+\mbox{\hyperlink{classHabitacao_ae34b27933eac914d0936a33b1b53eddf}{$\sim$\+Habitacao}} ()
+\begin{DoxyCompactList}\small\item\em Destrutor default. \end{DoxyCompactList}\item 
+virtual string \mbox{\hyperlink{classHabitacao_aed25dc76309b950051a08f4697cbabed}{get\+Morada}} ()
+\begin{DoxyCompactList}\small\item\em Metodo get para a morada de habitacao. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{classHabitacao_a1bb54ea14fa8c72c0c6ffd396cb67024}{get\+Area\+Int}} ()
+\begin{DoxyCompactList}\small\item\em Metodo get para a area interior da habitacao. \end{DoxyCompactList}\item 
+unsigned long int \mbox{\hyperlink{classHabitacao_aded38be1bd7f38b91fa00d57ebb45677}{get\+Owner\+Nif}} ()
+\begin{DoxyCompactList}\small\item\em Metodo get para o N\+IF do \mbox{\hyperlink{classCondomino}{Condomino}} dono da habitacao. \end{DoxyCompactList}\item 
+vector$<$ \mbox{\hyperlink{classServico}{Servico}} $>$ \mbox{\hyperlink{classHabitacao_ab22a563853c9a45f5ddb787478f456d0}{get\+Serv\+Cons}} ()
+\begin{DoxyCompactList}\small\item\em Metodo get para o vetor de servicos consumidos pela habitacao. \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{classHabitacao_a980ffe597e15a268849174273a60e46a}{get\+Servs\+String}} ()
+\begin{DoxyCompactList}\small\item\em Metodo get para a string de servicos consumidos pela habitacao. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classHabitacao_aea0b6482a489728228e48ac8eede8d9e}{set\+Morada}} (string \mbox{\hyperlink{classHabitacao_a17ab00f34e9ba8f2a0ca21b4d8c6931e}{morada}})
+\begin{DoxyCompactList}\small\item\em Metodo set para a morada da habitacao. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classHabitacao_a3ad7681a8bf94561f3061e7d938fa97d}{set\+Area\+Int}} (double \mbox{\hyperlink{classHabitacao_a91824bac67b074a75220eb5062f06ff6}{area\+Int}})
+\begin{DoxyCompactList}\small\item\em Metodo set para a area interior. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classHabitacao_ac3c66df1b26432b7d2bcdf411e7ee9bf}{set\+Owner\+Nif}} (unsigned long int nif)
+\begin{DoxyCompactList}\small\item\em Metodo set para o N\+IF do \mbox{\hyperlink{classCondomino}{Condomino}} dono. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classHabitacao_ac10b4950df16be6f2a065fa09fea36fe}{set\+Serv\+Cons}} (vector$<$ \mbox{\hyperlink{classServico}{Servico}} $>$ \mbox{\hyperlink{classHabitacao_a88bcb9b993a25353315bef90020ee025}{serv\+Cons}})
+\begin{DoxyCompactList}\small\item\em Metodo set para os servicos consumidos. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+string \mbox{\hyperlink{classHabitacao_a17ab00f34e9ba8f2a0ca21b4d8c6931e}{morada}}
+\item 
+double \mbox{\hyperlink{classHabitacao_a91824bac67b074a75220eb5062f06ff6}{area\+Int}}
+\item 
+unsigned long int \mbox{\hyperlink{classHabitacao_a6f9941ae0f2119e4145f9a61a0136df4}{owner\+Nif}}
+\item 
+vector$<$ \mbox{\hyperlink{classServico}{Servico}} $>$ \mbox{\hyperlink{classHabitacao_a88bcb9b993a25353315bef90020ee025}{serv\+Cons}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{classHabitacao_a579a2250aad460c7710c465a479848d5}{operator==}} (\mbox{\hyperlink{classHabitacao}{Habitacao}} h1, \mbox{\hyperlink{classHabitacao}{Habitacao}} h2)
+\begin{DoxyCompactList}\small\item\em Overload do operador == para 2 habitacoes. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Classe onde se tratam as habitacoes de forma geral existentes no condominio a gerir. 
+
+Classe-\/mae de habitacoes 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classHabitacao_ae4f23f51d14e182b00f30f980fa46108}\label{classHabitacao_ae4f23f51d14e182b00f30f980fa46108}} 
+\index{Habitacao@{Habitacao}!Habitacao@{Habitacao}}
+\index{Habitacao@{Habitacao}!Habitacao@{Habitacao}}
+\doxysubsubsection{\texorpdfstring{Habitacao()}{Habitacao()}}
+{\footnotesize\ttfamily Habitacao\+::\+Habitacao (\begin{DoxyParamCaption}\item[{unsigned long int}]{owner\+Nif,  }\item[{string}]{morada,  }\item[{double}]{area\+Int,  }\item[{vector$<$ \mbox{\hyperlink{classServico}{Servico}} $>$}]{serv\+Cons }\end{DoxyParamCaption})}
+
+
+
+Construtor de um objeto habitacao. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em owner\+Nif} & N\+IF do \mbox{\hyperlink{classCondomino}{Condomino}} dono (0 se sem dono) \\
+\hline
+{\em morada} & Morada da habitacao \\
+\hline
+{\em area\+Int} & Area interior da habitacao \\
+\hline
+{\em serv\+Cons} & Vetor de servicos que ja foram consumidos pela habitacao \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classHabitacao_a1bb54ea14fa8c72c0c6ffd396cb67024}\label{classHabitacao_a1bb54ea14fa8c72c0c6ffd396cb67024}} 
+\index{Habitacao@{Habitacao}!getAreaInt@{getAreaInt}}
+\index{getAreaInt@{getAreaInt}!Habitacao@{Habitacao}}
+\doxysubsubsection{\texorpdfstring{getAreaInt()}{getAreaInt()}}
+{\footnotesize\ttfamily double Habitacao\+::get\+Area\+Int (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Metodo get para a area interior da habitacao. 
+
+\begin{DoxyReturn}{Returns}
+double Area interior 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classHabitacao_aed25dc76309b950051a08f4697cbabed}\label{classHabitacao_aed25dc76309b950051a08f4697cbabed}} 
+\index{Habitacao@{Habitacao}!getMorada@{getMorada}}
+\index{getMorada@{getMorada}!Habitacao@{Habitacao}}
+\doxysubsubsection{\texorpdfstring{getMorada()}{getMorada()}}
+{\footnotesize\ttfamily virtual string Habitacao\+::get\+Morada (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Metodo get para a morada de habitacao. 
+
+\begin{DoxyReturn}{Returns}
+string Morada da habitacao 
+\end{DoxyReturn}
+
+
+Reimplemented in \mbox{\hyperlink{classApartamento_a5d08153332867890be09439de9b69f19}{Apartamento}}, and \mbox{\hyperlink{classVivenda_a5cfde9161946de85021b2e0ea3c9f4f7}{Vivenda}}.
+
+\mbox{\Hypertarget{classHabitacao_aded38be1bd7f38b91fa00d57ebb45677}\label{classHabitacao_aded38be1bd7f38b91fa00d57ebb45677}} 
+\index{Habitacao@{Habitacao}!getOwnerNif@{getOwnerNif}}
+\index{getOwnerNif@{getOwnerNif}!Habitacao@{Habitacao}}
+\doxysubsubsection{\texorpdfstring{getOwnerNif()}{getOwnerNif()}}
+{\footnotesize\ttfamily unsigned long int Habitacao\+::get\+Owner\+Nif (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Metodo get para o N\+IF do \mbox{\hyperlink{classCondomino}{Condomino}} dono da habitacao. 
+
+\begin{DoxyReturn}{Returns}
+unsigned long int N\+IF do \mbox{\hyperlink{classCondomino}{Condomino}} dono 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classHabitacao_ab22a563853c9a45f5ddb787478f456d0}\label{classHabitacao_ab22a563853c9a45f5ddb787478f456d0}} 
+\index{Habitacao@{Habitacao}!getServCons@{getServCons}}
+\index{getServCons@{getServCons}!Habitacao@{Habitacao}}
+\doxysubsubsection{\texorpdfstring{getServCons()}{getServCons()}}
+{\footnotesize\ttfamily vector$<$\mbox{\hyperlink{classServico}{Servico}}$>$ Habitacao\+::get\+Serv\+Cons (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Metodo get para o vetor de servicos consumidos pela habitacao. 
+
+\begin{DoxyReturn}{Returns}
+vector$<$\+Servico$>$ Servicos consumidos pela habitacao 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classHabitacao_a980ffe597e15a268849174273a60e46a}\label{classHabitacao_a980ffe597e15a268849174273a60e46a}} 
+\index{Habitacao@{Habitacao}!getServsString@{getServsString}}
+\index{getServsString@{getServsString}!Habitacao@{Habitacao}}
+\doxysubsubsection{\texorpdfstring{getServsString()}{getServsString()}}
+{\footnotesize\ttfamily string Habitacao\+::get\+Servs\+String (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Metodo get para a string de servicos consumidos pela habitacao. 
+
+\begin{DoxyReturn}{Returns}
+string Tipo de servicos consumidos pela habitacao 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classHabitacao_a3ad7681a8bf94561f3061e7d938fa97d}\label{classHabitacao_a3ad7681a8bf94561f3061e7d938fa97d}} 
+\index{Habitacao@{Habitacao}!setAreaInt@{setAreaInt}}
+\index{setAreaInt@{setAreaInt}!Habitacao@{Habitacao}}
+\doxysubsubsection{\texorpdfstring{setAreaInt()}{setAreaInt()}}
+{\footnotesize\ttfamily bool Habitacao\+::set\+Area\+Int (\begin{DoxyParamCaption}\item[{double}]{area\+Int }\end{DoxyParamCaption})}
+
+
+
+Metodo set para a area interior. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em area\+Int} & Nova area interior \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool true se bem sucedido, false se nao 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classHabitacao_aea0b6482a489728228e48ac8eede8d9e}\label{classHabitacao_aea0b6482a489728228e48ac8eede8d9e}} 
+\index{Habitacao@{Habitacao}!setMorada@{setMorada}}
+\index{setMorada@{setMorada}!Habitacao@{Habitacao}}
+\doxysubsubsection{\texorpdfstring{setMorada()}{setMorada()}}
+{\footnotesize\ttfamily bool Habitacao\+::set\+Morada (\begin{DoxyParamCaption}\item[{string}]{morada }\end{DoxyParamCaption})}
+
+
+
+Metodo set para a morada da habitacao. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em morada} & Nova morada da habitacao \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool true se bem sucedido, false se nao 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classHabitacao_ac3c66df1b26432b7d2bcdf411e7ee9bf}\label{classHabitacao_ac3c66df1b26432b7d2bcdf411e7ee9bf}} 
+\index{Habitacao@{Habitacao}!setOwnerNif@{setOwnerNif}}
+\index{setOwnerNif@{setOwnerNif}!Habitacao@{Habitacao}}
+\doxysubsubsection{\texorpdfstring{setOwnerNif()}{setOwnerNif()}}
+{\footnotesize\ttfamily bool Habitacao\+::set\+Owner\+Nif (\begin{DoxyParamCaption}\item[{unsigned long int}]{nif }\end{DoxyParamCaption})}
+
+
+
+Metodo set para o N\+IF do \mbox{\hyperlink{classCondomino}{Condomino}} dono. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em nif} & Novo N\+IF do \mbox{\hyperlink{classCondomino}{Condomino}} dono \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool true se bem sucedido, false se nao 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classHabitacao_ac10b4950df16be6f2a065fa09fea36fe}\label{classHabitacao_ac10b4950df16be6f2a065fa09fea36fe}} 
+\index{Habitacao@{Habitacao}!setServCons@{setServCons}}
+\index{setServCons@{setServCons}!Habitacao@{Habitacao}}
+\doxysubsubsection{\texorpdfstring{setServCons()}{setServCons()}}
+{\footnotesize\ttfamily bool Habitacao\+::set\+Serv\+Cons (\begin{DoxyParamCaption}\item[{vector$<$ \mbox{\hyperlink{classServico}{Servico}} $>$}]{serv\+Cons }\end{DoxyParamCaption})}
+
+
+
+Metodo set para os servicos consumidos. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em serv\+Cons} & Novo vetor de servicos consumidos \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool true se bem sucedido, false se nao 
+\end{DoxyReturn}
+
+
+\doxysubsection{Friends And Related Function Documentation}
+\mbox{\Hypertarget{classHabitacao_a579a2250aad460c7710c465a479848d5}\label{classHabitacao_a579a2250aad460c7710c465a479848d5}} 
+\index{Habitacao@{Habitacao}!operator==@{operator==}}
+\index{operator==@{operator==}!Habitacao@{Habitacao}}
+\doxysubsubsection{\texorpdfstring{operator==}{operator==}}
+{\footnotesize\ttfamily bool operator== (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classHabitacao}{Habitacao}}}]{h1,  }\item[{\mbox{\hyperlink{classHabitacao}{Habitacao}}}]{h2 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+Overload do operador == para 2 habitacoes. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em h1} & \mbox{\hyperlink{classHabitacao}{Habitacao}} 1 \\
+\hline
+{\em h2} & \mbox{\hyperlink{classHabitacao}{Habitacao}} 2 \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true se todos os membros de h1 forem iguais aos de h2, false se nao 
+\end{DoxyReturn}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classHabitacao_a91824bac67b074a75220eb5062f06ff6}\label{classHabitacao_a91824bac67b074a75220eb5062f06ff6}} 
+\index{Habitacao@{Habitacao}!areaInt@{areaInt}}
+\index{areaInt@{areaInt}!Habitacao@{Habitacao}}
+\doxysubsubsection{\texorpdfstring{areaInt}{areaInt}}
+{\footnotesize\ttfamily double Habitacao\+::area\+Int\hspace{0.3cm}{\ttfamily [protected]}}
+
+Area interior em m$^\wedge$2 \mbox{\Hypertarget{classHabitacao_a17ab00f34e9ba8f2a0ca21b4d8c6931e}\label{classHabitacao_a17ab00f34e9ba8f2a0ca21b4d8c6931e}} 
+\index{Habitacao@{Habitacao}!morada@{morada}}
+\index{morada@{morada}!Habitacao@{Habitacao}}
+\doxysubsubsection{\texorpdfstring{morada}{morada}}
+{\footnotesize\ttfamily string Habitacao\+::morada\hspace{0.3cm}{\ttfamily [protected]}}
+
+Morada da habitacao \mbox{\Hypertarget{classHabitacao_a6f9941ae0f2119e4145f9a61a0136df4}\label{classHabitacao_a6f9941ae0f2119e4145f9a61a0136df4}} 
+\index{Habitacao@{Habitacao}!ownerNif@{ownerNif}}
+\index{ownerNif@{ownerNif}!Habitacao@{Habitacao}}
+\doxysubsubsection{\texorpdfstring{ownerNif}{ownerNif}}
+{\footnotesize\ttfamily unsigned long int Habitacao\+::owner\+Nif\hspace{0.3cm}{\ttfamily [protected]}}
+
+N\+IF do \mbox{\hyperlink{classCondomino}{Condomino}} dono (0 se sem dono) \mbox{\Hypertarget{classHabitacao_a88bcb9b993a25353315bef90020ee025}\label{classHabitacao_a88bcb9b993a25353315bef90020ee025}} 
+\index{Habitacao@{Habitacao}!servCons@{servCons}}
+\index{servCons@{servCons}!Habitacao@{Habitacao}}
+\doxysubsubsection{\texorpdfstring{servCons}{servCons}}
+{\footnotesize\ttfamily vector$<$\mbox{\hyperlink{classServico}{Servico}}$>$ Habitacao\+::serv\+Cons\hspace{0.3cm}{\ttfamily [protected]}}
+
+Vetor com todos os servicos ja consumidos pela habitacao 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/codyphin/\+C\+Lion\+Projects/\+Proj1/\+Project/habitacoes.\+h\item 
+/home/codyphin/\+C\+Lion\+Projects/\+Proj1/\+Project/habitacoes.\+cpp\end{DoxyCompactItemize}
